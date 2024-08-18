@@ -9,7 +9,7 @@ export default function Hero() {
       </h1>
       {/* <div></div> */}
       <div className="mx-10 text-sm">
-        <p className="font-roboto-500">
+        <p className="font-roboto">
           Jack of all trades, master of some. On a journey to become a media
           demon and side questing an engineering degree.
           <br />
@@ -17,7 +17,7 @@ export default function Hero() {
           Recent works include shooting for hack the north, Socratica, and seek
           Discomfort
         </p>
-        <p className="font-roboto-600 my-2 underline">
+        <p className="font-roboto my-2 underline">
           <Link href="/about">more about me</Link>
         </p>
       </div>

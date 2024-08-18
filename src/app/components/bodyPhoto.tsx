@@ -5,6 +5,9 @@ type Category = "street" | "events" | "portraits" | "travel";
 interface Photos {
   [key: string]: string[];
 }
+interface Description {
+  [key: string]: string;
+}
 
 const categories: Category[] = ["street", "events", "portraits", "travel"];
 const photosData: Photos = {
@@ -58,6 +61,16 @@ const photosData: Photos = {
   ],
 };
 
+const descriptionData: Description = {
+  street:
+    "It all started with street photography. Walking around the city, looking for that perfect frame. Street photography is a game of observation. You become a fly on the wall in a massive city, watching people go by, telling a story with every shot. ",
+  events:
+    "Working with brands such as Seek Discomfort, Hack the North, and ⁂ Socratica. Providing media that captures the essence of their product",
+  portraits:
+    "Currently taking graduation photos for students around the University of Waterloo",
+  travel:
+    "At the end of the day photography is just my excuse to travel. Seeing new places and capturing experiences from around the world, ",
+};
 export default function BodyPhoto() {
   const [selectedCategory, setSelectedCategory] = useState<Category>(
     categories[0]
@@ -66,6 +79,7 @@ export default function BodyPhoto() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [description, setDiscription] = useState<string>("");
 
   const openModal = (image: string) => {
     setSelectedImage(image);
@@ -87,33 +101,42 @@ export default function BodyPhoto() {
   useEffect(() => {
     // Update photos when the selectedCategory changes
     setPhotos(photosData[selectedCategory]);
+    setDiscription(descriptionData[selectedCategory]);
   }, [selectedCategory]);
 
   return (
     <>
-      <div className=" grid grid-cols-[1fr_3fr] mx-16">
+      <div className=" grid grid-cols-[1fr_4fr] mx-16">
         {/* body headings */}
         <div className="mx-4 pr-8">
           <div className="font-roboto_mono mb-6">
             <h1 className="text-6xl ">01 </h1>
             <h1 className="text-4xl">photos</h1>
           </div>
-          <div className="my-4 text-sm">
-            taking my camera where ever I go, capturing memories yada yad a yada{" "}
+          <div className="my-4 px-6 py-4 text-sm font-roboto border ">
+            Taking my camera where ever I go. Capturing moments so I'll never
+            forget{" "}
           </div>
           {/* menu  */}
-          <div className="text-sm font-roboto-700">
+          <div className="text-sm">
             <ul>
               {categories.map((category) => (
-                <li
-                  key={category}
-                  className={`cursor-pointer p-2 ${
-                    selectedCategory === category ? "underline" : ""
-                  }`}
-                  onClick={() => handleCategoryClick(category)}
-                >
-                  {category}
-                </li>
+                <div>
+                  <li
+                    key={category}
+                    className={`cursor-pointer p-2 font-roboto_mono ${
+                      selectedCategory === category ? "underline" : ""
+                    }`}
+                    onClick={() => handleCategoryClick(category)}
+                  >
+                    {category}
+                  </li>
+                  {selectedCategory === category && (
+                    <p className="font-roboto text-sm my-2 px-4 italic">
+                      {description}
+                    </p>
+                  )}
+                </div>
               ))}
             </ul>
           </div>

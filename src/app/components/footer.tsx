@@ -5,7 +5,7 @@ export default function Footer() {
         <hr />
         <div className="my-4 mx-4 flex justify-between items-center text-sm">
           <div>
-            <p>© julian yam 2024</p>
+            <p>julian yam © 2024</p>
           </div>
           <div>
             <p>come say hi! </p>
