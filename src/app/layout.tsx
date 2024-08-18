@@ -6,7 +6,7 @@ import { roboto, roboto_mono } from "./utils/font";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Julian Yam ",
+  title: "julian yam ",
   description: "things by me",
 };
 
