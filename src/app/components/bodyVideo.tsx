@@ -31,7 +31,7 @@ export default function BodyVideo() {
   ];
   return (
     <>
-      <div className=" grid grid-cols-[1fr_3fr] mx-16 mt-24">
+      <div className=" grid grid-cols-[1fr_4fr] mx-16 mt-24">
         {/* body headings */}
         <div className="mx-4 pr-8">
           <div className="font-roboto_mono mb-6">

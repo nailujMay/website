@@ -5,11 +5,13 @@ import BodyPhoto from "./components/bodyPhoto";
 import BodyVideo from "./components/bodyVideo";
 import Head from "next/head";
 import Footer from "./components/footer";
+import ScrollProgressBar from "./components/scrollBar";
 
 export default function Home() {
   return (
     <>
       <div className="min-h-screen bg-background">
+        <ScrollProgressBar></ScrollProgressBar>
         <Nav></Nav>
 
         <Hero></Hero>

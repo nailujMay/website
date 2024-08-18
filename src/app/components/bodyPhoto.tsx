@@ -124,7 +124,7 @@ export default function BodyPhoto() {
                 <div>
                   <li
                     key={category}
-                    className={`cursor-pointer p-2 font-roboto_mono ${
+                    className={`cursor-pointer p-2 font-roboto font-bold ${
                       selectedCategory === category ? "underline" : ""
                     }`}
                     onClick={() => handleCategoryClick(category)}
