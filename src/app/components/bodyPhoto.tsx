@@ -113,7 +113,7 @@ export default function BodyPhoto() {
             <h1 className="text-6xl ">01 </h1>
             <h1 className="text-4xl">photos</h1>
           </div>
-          <div className="my-4 px-6 py-4 text-sm font-roboto border ">
+          <div className="my-4 px-6 py-4 text-sm font-roboto bg-gray-200 ">
             Taking my camera where ever I go. Capturing moments so I'll never
             forget{" "}
           </div>
