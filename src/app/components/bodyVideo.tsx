@@ -38,6 +38,20 @@ const videoList: Video[] = [
 ];
 
 export default function BodyVideo() {
+  const stills: Array<string> = [
+    "https://www.youtube.com/embed/OD0NzYlQWDY?si=XZvriTdM76ZtiC45",
+    "https://www.youtube.com/embed/wLmTSMrmewA?si=cVWl9s8Xmrcwq0Kg",
+    "https://www.youtube.com/embed/cJPbcvJATOE?si=cdqYPC6RxGCdE1-7",
+    "https://www.youtube.com/embed/UQYWiurdy6E?si=TDc--NLeTkya2RiS",
+    "https://www.youtube.com/embed/2hF7syBRvQc?si=VQSHZf4tQfGA7QAV",
+  ];
+  const link: Array<string> = [
+    "https://www.youtube.com/watch?v=cJPbcvJATOE",
+    "https://www.youtube.com/watch?v=2hF7syBRvQc",
+    "https://www.youtube.com/watch?v=OD0NzYlQWDY",
+    "https://www.youtube.com/watch?v=wLmTSMrmewA",
+    "https://www.youtube.com/watch?v=UQYWiurdy6E",
+  ];
   return (
     <>
       <div className=" grid grid-cols-[1fr_4fr] mx-16 mt-40">
