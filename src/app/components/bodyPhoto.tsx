@@ -106,7 +106,7 @@ export default function BodyPhoto() {
 
   return (
     <>
-      <div className=" grid grid-cols-[1fr_4fr] mx-16">
+      <div className="md:grid grid-cols-[1fr_4fr] mx-16">
         {/* body headings */}
         <div className="mx-4 pr-8">
           <div className="font-roboto_mono mb-6">
@@ -118,7 +118,7 @@ export default function BodyPhoto() {
             forget{" "}
           </div>
           {/* menu  */}
-          <div className="text-sm">
+          <div className="text-sm my-10 ">
             <ul>
               {categories.map((category) => (
                 <div>

@@ -54,7 +54,7 @@ export default function BodyVideo() {
   ];
   return (
     <>
-      <div className=" grid grid-cols-[1fr_4fr] mx-16 mt-40">
+      <div className=" md:grid grid-cols-[1fr_4fr] mx-16 mt-40">
         {/* body headings */}
         <div className="mx-4 pr-8">
           <div className="font-roboto_mono mb-6">
@@ -67,10 +67,10 @@ export default function BodyVideo() {
           </div>
         </div>
         {/* gallery body */}
-        <div className="flex-col ">
+        <div className="">
           {stills.map((still, index) => (
-            <div key={index} className="flex mb-8 justify-between ">
-              <div className="w-1/3 mx-8 ">
+            <div key={index} className="md:flex mb-8 justify-between ">
+              <div className="mb-8 md:w-1/3 mx-8 ">
                 <h1 className=" text-3xl mb-4 font-roboto_mono">
                   {videoList[index].title}
                 </h1>
@@ -86,7 +86,7 @@ export default function BodyVideo() {
                 </p>
               </div>
               <iframe
-                className="w-1/2 h-80"
+                className="my-4 w-full md:w-1/2 h-80"
                 src={stills[index]}
                 title="YouTube video player"
                 frameborder="0"
