@@ -45,7 +45,7 @@ export default function BodyVideo() {
         </div>
         {/* gallery body */}
         <div>
-          <div className="columns-3 gap-4">
+          <div className="gap-4 columns-2 md:columns-3">
             {stills.map((still, index) => (
               <div key={index} className="mb-4 h-1/2">
                 <a
