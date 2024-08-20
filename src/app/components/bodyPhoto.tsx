@@ -110,25 +110,28 @@ export default function BodyPhoto() {
 
   return (
     <>
-      <div className="md:grid grid-cols-[1fr_4fr] mx-16">
+      <div className="md:grid grid-cols-[1fr_4fr] mx-16 text-text">
         {/* body headings */}
-        <div className="mx-4 pr-8">
-          <div className="font-roboto_mono mb-6">
-            <h1 className="text-6xl ">01 </h1>
-            <h1 className="text-4xl">photos</h1>
+        <div className="md:mx-4 md:pr-8">
+          <div className=" mb-6">
+            <h1 className="text-6xl font-lora">01 </h1>
+            <h1 className="text-3xl font-inter font-semibold">PHOTO</h1>
+            <hr className="border-text border-2 my-2" />
           </div>
-          <div className="my-4 px-6 py-4 text-sm font-roboto bg-gray-200 ">
-            Taking my camera where ever I go. Capturing moments so I'll never
-            forget{" "}
+          <div className="my-4 px-2 text-sm font-inter ">
+            <p>
+              Taking my camera where ever I go. Capturing moments so I'll never
+              forget{" "}
+            </p>
           </div>
           {/* menu  */}
           <div className="text-sm my-10 ">
             <ul>
               {categories.map((category) => (
-                <div>
+                <div className="font-inter">
                   <li
                     key={category}
-                    className={`cursor-pointer p-2 font-roboto font-bold ${
+                    className={`cursor-pointer p-2  font-bold  ${
                       selectedCategory === category ? "underline" : ""
                     }`}
                     onClick={() => handleCategoryClick(category)}
@@ -136,9 +139,7 @@ export default function BodyPhoto() {
                     {category}
                   </li>
                   {selectedCategory === category && (
-                    <p className="font-roboto text-sm my-2 px-4 italic">
-                      {description}
-                    </p>
+                    <p className=" text-sm my-2 px-4 italic">{description}</p>
                   )}
                 </div>
               ))}

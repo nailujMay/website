@@ -54,14 +54,15 @@ export default function BodyVideo() {
   ];
   return (
     <>
-      <div className=" md:grid grid-cols-[1fr_4fr] mx-16 mt-40">
+      <div className=" font-inter md:grid grid-cols-[1fr_4fr] mx-16 mt-40">
         {/* body headings */}
-        <div className="mx-4 pr-8">
-          <div className="font-roboto_mono mb-6">
+        <div className="md:mx-4 md:pr-8">
+          <div className="font-lora mb-6">
             <h1 className="text-6xl ">02 </h1>
-            <h1 className="text-4xl">filmmaking</h1>
+            <h1 className="text-3xl font-inter font-semibold">FILM</h1>
+            <hr className="border-text border-2 my-2" />
           </div>
-          <div className="my-4 px-6 py-4 text-sm font-roboto bg-gray-200">
+          <div className="my-4 px-2 text-sm ">
             A more recent venture of mine. Filming any story that pops into my
             head as well as the occasional ad.
           </div>
@@ -70,8 +71,8 @@ export default function BodyVideo() {
         <div className="">
           {stills.map((still, index) => (
             <div key={index} className="md:flex mb-8 justify-between ">
-              <div className="mb-8 md:w-1/3 mr-12 ml-8 ">
-                <h1 className=" text-3xl mb-4 font-roboto_mono">
+              <div className="mb-8 md:w-1/3 md:mr-16 pr-2 ">
+                <h1 className=" text-3xl mb-4 font-lora font-semibold">
                   {videoList[index].title}
                 </h1>
                 <p>
@@ -86,7 +87,7 @@ export default function BodyVideo() {
                 </p>
               </div>
               <iframe
-                className="my-4 w-full md:w-2/3 h-96"
+                className="my-4 w-full h-60 md:w-2/3 md:h-96"
                 src={stills[index]}
                 title="YouTube video player"
                 frameborder="0"

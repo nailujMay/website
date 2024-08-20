@@ -10,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#F8F8F8",
-        text: "#363535",
+        background: "#FBF7ED",
+        text: "#1E311F",
       },
       fontFamily: {
         playfair: ["var(--font-playfair_display)"],
