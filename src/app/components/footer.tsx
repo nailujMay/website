@@ -20,16 +20,29 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/nailuj.may/"
                 className="md:px-4"
+                target="_blank"
               >
                 instagram
               </a>
-              <a href="https://www.youtube.com/@julian-yam" className="md:px-4">
+              <a
+                href="https://www.youtube.com/@julian-yam"
+                className="md:px-4"
+                target="_blank"
+              >
                 youtube
               </a>
-              <a href="https://x.com/nailuj_may" className="md:px-4">
+              <a
+                href="https://x.com/nailuj_may"
+                className="md:px-4"
+                target="_blank"
+              >
                 twitter
               </a>
-              <a href="https://github.com/nailujMay" className="md:px-4">
+              <a
+                href="https://github.com/nailujMay"
+                className="md:px-4"
+                target="_blank"
+              >
                 github
               </a>
             </div>
