@@ -3,16 +3,18 @@ import Nav from "../components/nav";
 export default function About() {
   return (
     <>
-      <div className="bg-background font-inter text-text">
+      <div className="bg-background font-inter  text-text">
         <Nav></Nav>
 
         <div className="flex-1 items-center my-16">
-          <div className="flex justify-center items-center">
-            <div className="w-1/4 h-auto mx-8">
+          <div className="flex flex-col items-center md:flex-row md:justify-center md:items-center">
+            <div className="w-1/2 md:w-1/4 h-auto mx-8 ">
               <img src="profile.jpg"></img>
             </div>
-            <div className="w-1/4 font-roboto">
-              <h1 className="text-3xl my-4">Nice to meet you! I'm Julian</h1>
+            <div className="w-3/4 md:w-1/4">
+              <h1 className="text-3xl my-8 font-semibold">
+                Nice to meet you! <br /> I'm Julian
+              </h1>
               <p className="text-sm">
                 I am a photographer and filmmaker from Markham, Ontario.
                 Currently shooting events, making short films, and struggling to
@@ -30,7 +32,7 @@ export default function About() {
               </p>
 
               <a href="mailto:julian.c.yam@gmail.com">
-                <button className="bg-slate-50 text-text px-10 py-4 my-4 text-sm">
+                <button className="bg-contact text-text px-4 py-4 my-4 text-sm">
                   julian.c.yam@gmail.com
                 </button>
               </a>

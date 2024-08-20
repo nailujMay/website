@@ -12,6 +12,7 @@ const config: Config = {
       colors: {
         background: "#FBF7ED",
         text: "#1E311F",
+        contact: "#E5E1D7",
       },
       fontFamily: {
         playfair: ["var(--font-playfair_display)"],

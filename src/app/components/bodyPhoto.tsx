@@ -114,7 +114,7 @@ export default function BodyPhoto() {
         {/* body headings */}
         <div className="md:mx-4 md:pr-8">
           <div className=" mb-6">
-            <h1 className="text-6xl font-lora">01 </h1>
+            <h1 className="text-6xl font-lora font-semibold">01 </h1>
             <h1 className="text-3xl font-inter font-semibold">PHOTO</h1>
             <hr className="border-text border-2 my-2" />
           </div>

@@ -12,9 +12,19 @@ export default function Nav() {
           about
         </Link>
 
-        <a className="px-2">resume</a>
+        <a
+          href="https://drive.google.com/file/d/1rq2idgTAslx4Io-Ix-p_ZXJXAFF3CV6T/view?usp=sharing"
+          target="_blank"
+          className="px-2"
+        >
+          resume
+        </a>
 
-        <a href="" className="px-2">
+        <a
+          href="https://drive.google.com/file/d/1QMmJeBVMsDcEONoybDCQ5FQH2KCTkwUK/view?usp=sharing"
+          className="px-2"
+          target="_blank"
+        >
           portfolio
         </a>
       </div>

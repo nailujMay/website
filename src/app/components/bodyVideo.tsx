@@ -58,7 +58,7 @@ export default function BodyVideo() {
         {/* body headings */}
         <div className="md:mx-4 md:pr-8">
           <div className="font-lora mb-6">
-            <h1 className="text-6xl ">02 </h1>
+            <h1 className="text-6xl font-semibold">02 </h1>
             <h1 className="text-3xl font-inter font-semibold">FILM</h1>
             <hr className="border-text border-2 my-2" />
           </div>
