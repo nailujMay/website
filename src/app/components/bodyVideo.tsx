@@ -9,7 +9,7 @@ const videoList: Video[] = [
     link: "https://www.youtube.com/embed/OD0NzYlQWDY?si=XZvriTdM76ZtiC45",
     title: "On Running Spec Ad",
     description:
-      "When you happen to be a filmmaker and need new shoes.\n \nA cinematic running commercial paired with some Elivs. Capturing the love I have for running and testing my skills as a filmmaker. \n Shout out to my roomie Jun Chao (@jun_chaoyang) for helping me shoot this. ",
+      "When you happen to be a filmmaker and need new shoes.\n \nA cinematic running commercial paired with some Elivs. Capturing the love I have for running and testing my skills as a filmmaker. \n Shout out to my roomie Jun Chao (ig:@jun_chaoyang) for helping me shoot this. ",
   },
   {
     link: "https://www.youtube.com/embed/wLmTSMrmewA?si=cVWl9s8Xmrcwq0Kg",
