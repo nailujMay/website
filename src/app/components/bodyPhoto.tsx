@@ -22,6 +22,10 @@ const photosData: Photos = {
     "/street/street_8.jpg",
     "/street/street_9.jpg",
     "/street/street_10.jpg",
+    "/street/street_11.jpg",
+    "/street/street_12.jpg",
+    "/street/street_13.jpg",
+    "/street/street_14.jpg",
   ],
   events: [
     "/events/events_2.jpg",

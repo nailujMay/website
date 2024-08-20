@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import { roboto, roboto_mono } from "./utils/font";
-
-const inter = Inter({ subsets: ["latin"] });
+import { roboto, roboto_mono, lora, inter } from "./utils/font";
 
 export const metadata: Metadata = {
   title: "julian yam ",
@@ -17,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto} ${roboto_mono}`}>{children}</body>
+      <body className={`${roboto} ${roboto_mono} ${lora} ${inter}`}>
+        {children}
+      </body>
     </html>
   );
 }

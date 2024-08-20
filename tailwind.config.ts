@@ -1,3 +1,4 @@
+import { roboto_mono } from "@/app/utils/font";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -13,8 +14,11 @@ const config: Config = {
         text: "#363535",
       },
       fontFamily: {
+        playfair: ["var(--font-playfair_display)"],
         roboto: ["var(--font-roboto)"],
+        lora: ["var(--font-lora)"],
         roboto_mono: ["var(--font-roboto_mono)"],
+        inter: ["var(--font-inter)"],
       },
     },
   },

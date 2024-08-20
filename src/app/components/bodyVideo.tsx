@@ -70,7 +70,7 @@ export default function BodyVideo() {
         <div className="">
           {stills.map((still, index) => (
             <div key={index} className="md:flex mb-8 justify-between ">
-              <div className="mb-8 md:w-1/3 mx-8 ">
+              <div className="mb-8 md:w-1/3 mr-12 ml-8 ">
                 <h1 className=" text-3xl mb-4 font-roboto_mono">
                   {videoList[index].title}
                 </h1>
@@ -86,7 +86,7 @@ export default function BodyVideo() {
                 </p>
               </div>
               <iframe
-                className="my-4 w-full md:w-1/2 h-80"
+                className="my-4 w-full md:w-2/3 h-96"
                 src={stills[index]}
                 title="YouTube video player"
                 frameborder="0"

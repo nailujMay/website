@@ -8,20 +8,10 @@ export default function Nav() {
       </div>
 
       <div className="font-roboto-400 text-sm">
-        <a href="" className="px-2">
-          instagram
-        </a>
-        <a href="" className="px-2">
-          twitter
-        </a>
-        <a href="" className="px-2">
-          github
-        </a>
+        <a className="px-2">resume</a>
+
         <a href="" className="px-2">
           portfolio
-        </a>
-        <a href="" className="px-2">
-          resume
         </a>
       </div>
     </div>
