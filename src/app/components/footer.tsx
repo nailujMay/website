@@ -8,8 +8,10 @@ export default function Footer() {
             <p>julian yam © 2024</p>
           </div>
           <div>
-            <p>come say hi! </p>
             <a href="mailto:julian.c.yam@gmail.com">julian.c.yam@gmail.com</a>
+            <a href="https://github.com/nailujMay">instagram</a>
+            <a>youtube</a>
+            <a href="https://github.com/nailujMay">github</a>
           </div>
         </div>
       </div>
