@@ -9,19 +9,19 @@ const videoList: Video[] = [
     link: "https://www.youtube.com/embed/OD0NzYlQWDY?si=XZvriTdM76ZtiC45",
     title: "On Running Spec Ad",
     description:
-      "When you happen to be a filmmaker and need new shoes.\n \nA cinematic running commercial paired with some Elivs. Capturing the love I have for running and testing my skills as a filmmaker. \n Shout out to my roomie Jun Chao (@jun_chaoyang) for helping me shoot this . ",
+      "When you happen to be a filmmaker and need new shoes.\n \nA cinematic running commercial paired with some Elivs. Capturing the love I have for running and testing my skills as a filmmaker. \n Shout out to my roomie Jun Chao (@jun_chaoyang) for helping me shoot this. ",
   },
   {
     link: "https://www.youtube.com/embed/wLmTSMrmewA?si=cVWl9s8Xmrcwq0Kg",
     title: "Jazz for Cows",
     description:
-      " If your friend asks you to film him while he plays jazz for cows, you have to say yes. \n\n Drove up north and asked a random farmer if we could play for his cows. He said yes! That night the cows were serenaded with Frank Sinatra and Laufey",
+      " If your friend asks you to film him while he plays jazz for cows, you have to say yes. \n\n Drove up north and asked a random farmer if we could play for his cows. He said yes! That night the cows were serenaded with Frank Sinatra and Laufey.",
   },
   {
     link: "https://www.youtube.com/embed/cJPbcvJATOE?si=cdqYPC6RxGCdE1-7",
     title: "My Waterloo",
     description:
-      "A love letter to Waterloo, Ontario. \n\n Being a student at the University of Waterloo, the city of Waterloo has become my home. Taught to hate it, learned to love it, Waterloo has been a magical place where I have been tested in all aspects of my life. Now I am proud to say that I'm a local :)",
+      "A love letter to Waterloo, Ontario. \n\n Being a student at the University of Waterloo, the city of Waterloo has become my home. Taught to hate it, learned to love it, Waterloo has been a magical place where I have been tested in all aspects of my life. Now I am proud to say that I'm a local. :)",
   },
   {
     link: "https://www.youtube.com/embed/OD0NzYlQWDY?si=XZvriTdM76ZtiC45",
