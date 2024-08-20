@@ -90,10 +90,7 @@ export default function BodyVideo() {
                 className="my-4 w-full h-60 md:w-2/3 md:h-96"
                 src={stills[index]}
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
               ></iframe>
             </div>
           ))}
