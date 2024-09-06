@@ -1,8 +1,16 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import { usePathname } from "next/navigation"; // Use this instead of useRouter
+
 export default function Footer() {
+  const pathname = usePathname(); // Get the current path
+
+  const backgroundColor = pathname === "/dev" ? "bg-text" : "bg-background";
+  const textColor = pathname === "/dev" ? "bg-background" : "bg-text";
   return (
     <>
       <div className="py-4 font-inter bg-transparent ">
-        <hr className="border-text" />
+        <hr className={`${textColor}`} />
         <div className="my-4 mx-6 flex justify-between items-center text-sm">
           <div>
             <p>

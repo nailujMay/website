@@ -10,19 +10,19 @@ const software: item[] = [
     title: "Bill of Materials Extractor",
     topic: "THE MACHING GROUP",
     body: "A program that leverages OpenAI’s API to automatically read the Bill of materials from an engineering drawing.",
-    link: "",
+    link: "https://github.com/nailujMay/pdfdrawing_app",
   },
   {
     title: "ML Dimension Locator ",
     topic: "THE MACHING GROUP",
     body: " Trained a YOLOv8 model to automatically locate and read dimensions on an engineering drawing for quoting purposes ",
-    link: "",
+    link: "https://github.com/nailujMay/ML-Dimension-finder",
   },
   {
-    title: "Reflectify",
+    title: "Unbury",
     topic: "FOR ME",
     body: "An AI journal app that helps you reveal your deepest thoughts. ",
-    link: "",
+    link: "https://github.com/nailujMay/unbury-app/tree/master",
   },
 ];
 
@@ -50,39 +50,39 @@ const hardware: item[] = [
 export default function BodyDev() {
   return (
     <>
-      <div className="mx-20 mt-64">
-        <div className="my-16">
+      <div className="mx-20 mt-24">
+        <div className="my-32">
           <div className=" mb-6">
-            <h1 className="text-6xl font-lora font-semibold">01 </h1>
-            <h1 className="text-3xl font-inter font-semibold">SOFTWARE</h1>
+            <h1 className="text-6xl font-lora ">01 </h1>
+            <h1 className="text-3xl font-inter ">SOFTWARE</h1>
             <hr className="border-background border-2 my-2" />
           </div>
-          <div className="grid grid-cols-3 gap-28">
+          <div className="grid md:grid-cols-3 gap-28">
             {software.map((software, index) => (
               <div key={index} className="">
                 <a href={software.link} className="font-lora text-2xl ">
                   {software.title}
                 </a>
                 <p className="font-inter text-sm">{software.topic}</p>
-                <p className="font-inter mt-4">{software.body}</p>
+                <p className="font-inter mt-4 pr-6">{software.body}</p>
               </div>
             ))}
           </div>
         </div>
-        <div className="my-16">
+        <div className="my-32">
           <div className=" mb-6">
-            <h1 className="text-6xl font-lora font-semibold">02 </h1>
-            <h1 className="text-3xl font-inter font-semibold">Hardware</h1>
+            <h1 className="text-6xl font-lora ">02 </h1>
+            <h1 className="text-3xl font-inter ">Hardware</h1>
             <hr className="border-backgroud border-2 my-2" />
           </div>
-          <div className="grid grid-cols-3 gap-30">
+          <div className="grid md:grid-cols-3 gap-28 ">
             {hardware.map((software, index) => (
               <div key={index} className="">
                 <a href={software.link} className="font-lora text-2xl ">
                   {software.title}
                 </a>
                 <p className="font-inter text-sm">{software.topic}</p>
-                <p className="font-inter mt-4">{software.body}</p>
+                <p className="font-inter mt-4 pr-6">{software.body}</p>
               </div>
             ))}
           </div>

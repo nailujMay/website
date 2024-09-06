@@ -2,11 +2,13 @@ import BodyDev from "../components/bodyDev";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Nav from "../components/nav";
+import ScrollProgressBar from "../components/scrollBar";
 
 export default function Dev() {
   return (
     <>
       <div className="bg-text font-inter  text-background min-h-screen  ">
+        <ScrollProgressBar />
         <Nav />
         <Hero
           hero1="Hello,"
