@@ -9,7 +9,7 @@ const videoList: Video[] = [
     link: "https://www.youtube.com/embed/OD0NzYlQWDY?si=XZvriTdM76ZtiC45",
     title: "On Running Spec Ad",
     description:
-      "When you happen to be a filmmaker and need new shoes.\n \nA cinematic running commercial paired with some Elivs. Capturing the love I have for running and testing my skills as a filmmaker. \n Shout out to my roomie Jun Chao (ig:@jun_chaoyang) for helping me shoot this. ",
+      "When you happen to be a filmmaker and need new shoes.\n \nA cinematic running commercial paired with some Elvis. Capturing the love I have for running and testing my skills as a filmmaker. \n Shout out to my roomie Jun Chao (ig:@jun_chaoyang) for helping me shoot this. ",
   },
   {
     link: "https://www.youtube.com/embed/wLmTSMrmewA?si=cVWl9s8Xmrcwq0Kg",
@@ -33,7 +33,7 @@ const videoList: Video[] = [
     link: "https://www.youtube.com/embed/OD0NzYlQWDY?si=XZvriTdM76ZtiC45",
     title: "The Idea",
     description:
-      "Ideas are hard to come up with. \n\n This is the first video I ever made. It was for nights and weekends s5. Went through all the amature pitfalls to produce this video inlcuding shooting in the wrong codec and taking an entire night to convert it to something usable. This video kickstarted my video journey. Never looked back ever since. ",
+      "Ideas are hard to come up with. \n\n This is the first video I ever made. It was for nights and weekends s5. Went through all the amature pitfalls to produce this video including shooting in the wrong codec and taking an entire night to convert it to something usable. This video kickstarted my video journey. Never looked back ever since. ",
   },
 ];
 

@@ -36,7 +36,7 @@ const hardware: item[] = [
   {
     title: "Spidey Sense Hat",
     topic: "HACK THE NORTH HACK",
-    body: "A hat that gives Spiderman's spidey sense. Alerts you when object are approaching you at high velocities. ",
+    body: "A hat that gives you Spiderman's spidey sense. Alerts you when objects are approaching at high velocities. ",
     link: "",
   },
   {
