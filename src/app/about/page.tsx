@@ -16,9 +16,9 @@ export default function About() {
                 Nice to meet you! <br /> I'm Julian
               </h1>
               <p className="text-sm">
-                I am a photographer and filmmaker from Markham, Ontario.
-                Currently shooting events, making short films, and struggling to
-                get through my engineering degree.
+                I am a software developer, photographer, and filmmaker from
+                Markham, Ontario. Currently shooting events, making short films,
+                and struggling to get through my engineering degree.
                 <br />
                 <br />
                 On an off day you can find me exploring new places, cooking, and

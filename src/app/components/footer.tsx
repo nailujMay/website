@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="py-4 font-inter bg-background ">
+      <div className="py-4 font-inter bg-transparent ">
         <hr className="border-text" />
         <div className="my-4 mx-6 flex justify-between items-center text-sm">
           <div>

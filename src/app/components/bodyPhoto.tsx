@@ -85,6 +85,15 @@ export default function BodyPhoto() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [description, setDiscription] = useState<string>("");
 
+  // Preload all images from all categories
+  useEffect(() => {
+    const allImages = Object.values(photosData).flat();
+    allImages.forEach((photo) => {
+      const img = new Image();
+      img.src = photo;
+    });
+  }, []);
+
   const openModal = (image: string) => {
     setSelectedImage(image);
     setIsOpen(true);
@@ -153,6 +162,7 @@ export default function BodyPhoto() {
               <div key={index} className="mb-4 h-1/2">
                 <img
                   src={photo}
+                  rel="preload"
                   alt={`Photo ${index}`}
                   className="object-contain w-full h-full "
                   onClick={() => openModal(photo)}

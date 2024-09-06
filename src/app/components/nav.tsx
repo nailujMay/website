@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <div className="flex justify-between bg-transparent text-text py-10 px-2 mx-14 my-2 font-inter">
+    <div className="flex justify-between bg-transparent py-10 px-2 mx-14  font-inter">
       <div className="px-4 italic">
         <Link href="/"> julian yam</Link>
       </div>

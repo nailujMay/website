@@ -14,10 +14,17 @@ export default function Home() {
         <ScrollProgressBar></ScrollProgressBar>
         <Nav></Nav>
 
-        <Hero></Hero>
-        <BodyPhoto></BodyPhoto>
-        <BodyVideo></BodyVideo>
-        <Footer></Footer>
+        <Hero
+          hero1="Heyo"
+          hero2="I'm Julian"
+          desc1="Jack of all trades, master of some. On a journey to become a media
+            demon and side questing an engineering degree."
+          desc2="I'm shooting every chance I get. Recent works include shooting for
+            Hack the North, Socratica, TEDX and Seek Discomfort"
+        />
+        <BodyPhoto />
+        <BodyVideo />
+        <Footer />
       </div>
     </>
   );
