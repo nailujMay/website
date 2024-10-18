@@ -1,5 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image";
+
 type Category = "street" | "events" | "portraits" | "travel";
 
 interface Photos {
@@ -86,13 +88,13 @@ export default function BodyPhoto() {
   const [description, setDiscription] = useState<string>("");
 
   // Preload all images from all categories
-  useEffect(() => {
-    const allImages = Object.values(photosData).flat();
-    allImages.forEach((photo) => {
-      const img = new Image();
-      img.src = photo;
-    });
-  }, []);
+  // useEffect(() => {
+  //   const allImages = Object.values(photosData).flat();
+  //   allImages.forEach((photo) => {
+  //     const img = new Image();
+  //     img.src = photo;
+  //   });
+  // }, []);
 
   const openModal = (image: string) => {
     setSelectedImage(image);
@@ -177,7 +179,7 @@ export default function BodyPhoto() {
               onClick={closeModal}
             >
               <div className="relative">
-                <img
+                <Image
                   src={selectedImage}
                   alt="Expanded"
                   className="max-h-screen max-w-full"
