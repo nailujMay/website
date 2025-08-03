@@ -87,15 +87,6 @@ export default function BodyPhoto() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [description, setDiscription] = useState<string>("");
 
-  // Preload all images from all categories
-  // useEffect(() => {
-  //   const allImages = Object.values(photosData).flat();
-  //   allImages.forEach((photo) => {
-  //     const img = new Image();
-  //     img.src = photo;
-  //   });
-  // }, []);
-
   const openModal = (image: string) => {
     setSelectedImage(image);
     setIsOpen(true);
@@ -162,12 +153,14 @@ export default function BodyPhoto() {
           <div className="gap-4 columns-2 md:columns-3 ">
             {photos.map((photo, index) => (
               <div key={index} className="mb-4 h-1/2">
-                <img
+                <Image
                   src={photo}
                   rel="preload"
                   alt={`Photo ${index}`}
                   className="object-contain w-full h-full "
                   onClick={() => openModal(photo)}
+                  width={250}
+                  height={250}
                 />
               </div>
             ))}
@@ -184,12 +177,6 @@ export default function BodyPhoto() {
                   alt="Expanded"
                   className="max-h-screen max-w-full"
                 />
-                {/* <button
-                  onClick={closeModal}
-                  className="absolute top-2 right-2 text-white text-2xl font-bold"
-                >
-                  &times;
-                </button> */}
               </div>
             </div>
           )}
